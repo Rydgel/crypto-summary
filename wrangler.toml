@@ -1,0 +1,12 @@
+name = "crypto_summary_ts"
+type = "javascript"
+zone_id = ""
+account_id = "0596506f7166a57a99441f7b7941def8"
+route = ""
+workers_dev = true
+compatibility_date = "2022-01-25"
+
+[build]
+command = "npm install && npm run build"
+[build.upload]
+format = "service-worker"
